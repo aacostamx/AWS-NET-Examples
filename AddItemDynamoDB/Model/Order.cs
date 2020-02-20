@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LambdaDynamoDB.Model
+namespace AddItemDynamoDB.Model
 {
     public class Order
     {

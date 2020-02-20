@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LambdaDynamoDB", "LambdaDynamoDB", "{6EE447BE-3757-4610-A689-F3A0D823BE8F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lambda", "Lambda", "{6EE447BE-3757-4610-A689-F3A0D823BE8F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaDynamoDB", "LambdaDynamoDB\LambdaDynamoDB.csproj", "{D1041797-F3EE-48AA-A8E9-67F2109B844B}"
 EndProject

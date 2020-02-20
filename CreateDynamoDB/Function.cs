@@ -27,6 +27,11 @@ namespace CreateDynamoDB
                             {
                                 AttributeName = "OrderId",
                                 AttributeType = "N"
+                            },
+                            new AttributeDefinition
+                            {
+                                AttributeName = "CustomerId",
+                                AttributeType = "S"
                             }
                         },
                             KeySchema = new List<KeySchemaElement>
@@ -35,6 +40,11 @@ namespace CreateDynamoDB
                             {
                                 AttributeName = "OrderId",
                                 KeyType = "HASH"
+                            },
+                            new KeySchemaElement
+                            {
+                                AttributeName = "CustomerId",
+                                KeyType = "RANGE"
                             }
                         },
                             ProvisionedThroughput = new ProvisionedThroughput

@@ -38,12 +38,12 @@ If already installed check if new version is available.
 
 Execute unit tests
 ```
-    cd "Low-level/test/Low-level.Tests"
+    cd "LowLevel/test/LowLevel.Tests"
     dotnet test
 ```
 
 Deploy function to AWS Lambda
 ```
-    cd "Low-level/src/Low-level"
+    cd "LowLevel/src/LowLevel"
     dotnet lambda deploy-function
 ```

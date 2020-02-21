@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Low_level.Model
+namespace LowLevel.Model
 {
     public class Order
     {

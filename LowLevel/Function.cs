@@ -2,13 +2,14 @@ using Amazon.DynamoDBv2;
 using Amazon.DynamoDBv2.Model;
 using Amazon.Lambda.Core;
 using Amazon.Lambda.Serialization.Json;
-using Low_level.Model;
+using LowLevel.Model;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 [assembly: LambdaSerializer(typeof(JsonSerializer))]
-namespace Low_level
+
+namespace LowLevel
 {
     public class Function
     {

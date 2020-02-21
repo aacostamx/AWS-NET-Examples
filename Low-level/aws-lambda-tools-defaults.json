@@ -15,5 +15,5 @@
   "function-runtime":"dotnetcore2.1",
   "function-memory-size" : 256,
   "function-timeout" : 30,
-  "function-handler" : "Low-level::Low_level.Function::FunctionHandler"
+  "function-handler" : "Low_level::Low_level.Function::FunctionHandler"
 }
